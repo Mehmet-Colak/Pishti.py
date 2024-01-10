@@ -1,0 +1,30 @@
+#constants.py
+"""
+These are the list of legal cards in play.
+"""
+RANKS_AND_SUITS: dict[str, tuple[str, int]] = {'Ace of Spades': ("SPADES", 1), '2 of Spades': ("SPADES", 2),
+             '3 of Spades': ("SPADES", 3),  '4 of Spades': ("SPADES", 4),
+             '5 of Spades': ("SPADES", 5), '6 of Spades': ("SPADES", 6),
+             '7 of Spades': ("SPADES", 7), '8 of Spades': ("SPADES", 8),
+             '9 of Spades': ("SPADES", 9), '10 of Spades': ("SPADES",10), 
+             'Jack of Spades': ("SPADES", 11), 'Queen of Spades': ("SPADES", 12),
+             'King of Spades': ("SPADES", 13), 'Ace of Diamonds': ("DIAMONDS", 1),
+             '2 of Diamonds': ("DIAMONDS", 2), '3 of Diamonds': ("DIAMONDS", 3),
+             '4 of Diamonds': ("DIAMONDS", 4), '5 of Diamonds': ("DIAMONDS", 5),
+             '6 of Diamonds': ("DIAMONDS", 6), '7 of Diamonds': ("DIAMONDS", 7), 
+             '8 of Diamonds': ("DIAMONDS", 8), '9 of Diamonds': ("DIAMONDS", 9), 
+             '10 of Diamonds': ("DIAMONDS", 10), 'Jack of Diamonds': ("DIAMONDS", 11),
+             'Queen of Diamonds': ("DIAMONDS", 12), 'King of Diamonds': ("DIAMONDS", 13),
+             'Ace of Hearts': ("HEARTS", 1), '2 of Hearts': ("HEARTS", 2), 
+             '3 of Hearts': ("HEARTS", 3),  '4 of Hearts': ("HEARTS", 4),
+             '5 of Hearts': ("HEARTS", 5), '6 of Hearts': ("HEARTS", 6),
+             '7 of Hearts': ("HEARTS", 7), '8 of Hearts': ("HEARTS", 8),
+             '9 of Hearts': ("HEARTS", 9), '10 of Hearts': ("HEARTS", 10),
+             'Jack of Hearts': ("HEARTS", 11), 'Queen of Hearts': ("HEARTS", 12),
+             'King of Hearts': ("HEARTS", 13), 'Ace of Clubs': ("CLUBS", 1),
+             '2 of Clubs': ("CLUBS", 2), '3 of Clubs': ("CLUBS", 3),
+             '4 of Clubs': ("CLUBS", 4), '5 of Clubs': ("CLUBS", 5),
+             '6 of Clubs': ("CLUBS", 6), '7 of Clubs': ("CLUBS", 7),
+             '8 of Clubs': ("CLUBS", 8), '9 of Clubs': ("CLUBS", 9),
+             '10 of Clubs': ("CLUBS", 10), 'Jack of Clubs': ("CLUBS", 11),
+             'Queen of Clubs': ("CLUBS", 12), 'King of Clubs': ("CLUBS", 13)} 
